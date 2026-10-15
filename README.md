@@ -51,6 +51,12 @@ O painel traz atalhos por ato, retomada da primeira missão abaixo do nível 4, 
 | A regra distingue os controles? | [YARA](guides/yara.md) | CTI | Hipótese e teste negativo |
 | A porta local aceita conexão? | [Nmap](guides/nmap.md) | Offsec | Estado observado da porta |
 
+### Guias ricos (HTML interativo)
+
+| Missão | Ferramenta | Área | Formato |
+|---|---|---|---|
+| O agente decide, encadeia e pivota — e por que não inventa achados? | [OpenOSINT](guides/openosint.md) · [manual interativo](guides/openosint/index.html) | OSINT · CTI | Método Feynman: figura isométrica animada, painel das 20 tools, investigação quadro a quadro, quiz |
+
 ## 04 / Aprender em ciclos
 
 ```mermaid
