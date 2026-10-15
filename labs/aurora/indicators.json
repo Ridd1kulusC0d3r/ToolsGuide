@@ -1,0 +1,20 @@
+{
+  "synthetic": true,
+  "indicators": [
+    {
+      "type": "domain",
+      "value": "login.aurora.example",
+      "score": 85
+    },
+    {
+      "type": "domain",
+      "value": "docs.aurora.example",
+      "score": 20
+    },
+    {
+      "type": "ip",
+      "value": "192.0.2.10",
+      "score": 95
+    }
+  ]
+}

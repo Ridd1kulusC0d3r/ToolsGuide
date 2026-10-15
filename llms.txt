@@ -1,0 +1,10 @@
+# ToolsGuide
+> Guias em pt-BR para aprendizagem e interpretação de ferramentas de cyber, OSINT, CTI e offsec.
+
+- [Catálogo estruturado](catalog.json): IDs, áreas, dependências conceituais, entradas, comandos, resultados esperados, limites e fontes.
+- [Contrato de execução](AGENTS.md): escopo, tratamento de conteúdo não confiável e honestidade de evidência.
+- [Método](docs/METHOD.md): ciclo explicativo e rubrica.
+- [Validação](docs/VALIDATION.md): o que foi realmente executado.
+- [Caso](docs/AURORA.md): cenário inteiramente sintético.
+
+Não usar scores fictícios como risco real. Não tratar progresso local como certificação.
