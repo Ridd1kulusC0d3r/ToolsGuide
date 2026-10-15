@@ -1,3 +1,5 @@
+![ToolsGuide — Investigue. Experimente. Entenda.](assets/banner.svg)
+
 <div align="center">
 
 # ToolsGuide
@@ -11,13 +13,13 @@ Guias em português para humanos e agentes de IA, com laboratório, narrativa e 
 
 </div>
 
-## Entre na operação Aurora
+## 01 / Entre na operação Aurora
 
 08h17. Uma cooperativa fictícia recebe um relato sobre um domínio parecido com sua marca. Você acompanha Lia, analista responsável por separar observações de conclusões. A missão não termina quando um comando funciona: termina quando outra pessoa consegue entender e reproduzir seu raciocínio.
 
 **Primeira entrega:** seis guias iniciais, seis laboratórios pequenos e um painel local com busca, filtros, caderno de estudo, progressão e exportação. Não é uma coleção completa de ferramentas nem certificação profissional.
 
-## Abra seu painel
+## 02 / Abra seu painel
 
 ```sh
 git clone https://github.com/Ridd1kulusC0d3r/ToolsGuide.git
@@ -28,7 +30,17 @@ python3 -m http.server 8765 --bind 127.0.0.1
 
 Abra **http://127.0.0.1:8765/**. O painel usa o catálogo local e não executa comandos. O progresso fica neste navegador; exporte seu caderno antes de limpar os dados. Sem contas, telemetria ou dependências de CDN. GitHub Pages ainda não está configurado.
 
-## Escolha sua pergunta
+### Sua jornada em três atos
+
+| Ato I · O relato | Ato II · As pistas | Ato III · A hipótese |
+|---|---|---|
+| **Encontre o sinal.** | **Interrogue a evidência.** | **Teste seus limites.** |
+| jq + curl | ExifTool + TShark | YARA + Nmap |
+| Filtrar e compreender a entrega | Examinar arquivos e tráfego | Confrontar regras e observações |
+
+O painel traz atalhos por ato, retomada da primeira missão abaixo do nível 4, comandos copiáveis e navegação entre missões. A progressão continua sendo autoavaliação.
+
+## 03 / Escolha sua pergunta
 
 | Missão | Ferramenta | Área | Entrega |
 |---|---|---|---|
@@ -39,7 +51,7 @@ Abra **http://127.0.0.1:8765/**. O painel usa o catálogo local e não executa c
 | A regra distingue os controles? | [YARA](guides/yara.md) | CTI | Hipótese e teste negativo |
 | A porta local aceita conexão? | [Nmap](guides/nmap.md) | Offsec | Estado observado da porta |
 
-## Aprender em ciclos
+## 04 / Aprender em ciclos
 
 ```mermaid
 flowchart TD
@@ -54,11 +66,11 @@ flowchart TD
  D -->|Sim| M["Registrar evidência e avançar"]
 ```
 
-## Para agentes de IA
+## 05 / Para agentes de IA
 
 Leia [AGENTS.md](AGENTS.md), [llms.txt](llms.txt) e [catalog.json](catalog.json). Cada guia tem entrada, comando, saída esperada, limites, pré-requisitos e fonte. O catálogo é a fonte do painel; os guias aprofundam o raciocínio. Nenhuma saída simulada deve ser apresentada como resultado executado.
 
-## Evolução editorial
+## 06 / Evolução editorial
 
 Próximas trilhas propostas: CyberChef e OpenRefine para transformação; Sigma para detecção; MISP e OpenCTI para contexto; OWASP ZAP em laboratório para aplicações. São propostas, não módulos disponíveis. Novos guias entram com fixture, controle negativo, fonte primária e revisão técnica: [como contribuir](CONTRIBUTING.md).
 
